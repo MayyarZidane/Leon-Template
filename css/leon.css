@@ -221,7 +221,7 @@ body {
 }
 
 .features .feat p {
-    line-height: 2;
+    line-height: var(--main-line-height);
     color: #444;
     font-size: var(--main-paragraph-font-size);
 }
@@ -265,7 +265,7 @@ body {
 .services .services-content .srv .text p {
     color: #444;
     font-size: var(--main-paragraph-font-size);
-    line-height: 1.6;
+    line-height: var(--main-line-height);
     font-weight: 300;
 }
 
