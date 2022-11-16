@@ -175,7 +175,7 @@ body {
 
 .landing {
     position: relative;
-    background-image: url("../images/mountain.jpeg");
+    background-image: url("../images/landing.jpeg");
     background-size: cover;
     height: calc(100vh - 70px);
 }
