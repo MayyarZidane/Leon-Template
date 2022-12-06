@@ -349,11 +349,18 @@ body {
     .about .about-content {
         flex-direction: column;
         text-align: center;
+        margin-top: 50px;
     }
 }
 
 .about .about-content .image {
     position: relative;
+}
+
+@media (max-width: 991px) {
+    .about .about-content .image {
+        margin: 0 auto 15px;
+    }
 }
 
 .about .about-content .image::before {
@@ -390,13 +397,6 @@ body {
 .about .about-content .image img {
     width: 100%;
     height: 100%;
-}
-
-
-@media (max-width:991px) {
-    .about .about-content .image {
-        margin: 0 auto 60px;
-    }
 }
 
 .about .about-content .text {
